@@ -1,0 +1,78 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a9fff4;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.link-menu {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color:blue;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #8facfd;
+    border: #4cb538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: aqua;
+}
+
+img {
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 25px;
+}
+h2 {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.div-perfil {
+    display: inline-block;
+}
+
+.absolute {
+    position: absolute;
+    margin-top: 25PX;
+    margin-right: 50PX;
+}
+.c-vidio {
+    color: red;
+}
+.D-club {
+    color: rgb(153, 0, 255);
+}

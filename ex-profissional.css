@@ -1,0 +1,80 @@
+ * {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #befacb;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.link-menu {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color:blue;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #8facfd;
+    border: #4cb538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: aqua;
+}
+
+img {
+    margin: 25px;
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.div-perfil {
+    display: inline-block;
+}
+
+.absolute {
+    position: absolute;
+    margin-top: 25PX;
+    margin-right: 50PX;
+}
+@media screen and (max-width: 700px) {
+    .div-perfil {
+        display: inline;
+        margin-left: 1px;
+        font-size: 30px;
+    }
+  
+    .celbox {
+        
+        margin-left: 1px;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4f0bb;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.link-menu {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color:blue;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #8facfd;
+    border: #4cb538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: aqua;
+}
+
+.papai-yhan {
+    margin: 25px;
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 25px;
+}
+h2 {
+    margin-left: 25px;
+}
+.mapa-endereço {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 1390px;
+    height: 400px;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.div-perfil-absolute{
+    display: inline-block;
+    position: absolute;
+    margin-top: 25PX;
+    margin-right: 50PX;
+}
+@media screen and (max-width: 700px) {
+    .div-perfil-absolute {
+        text-decoration: none;
+        display: block;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    img {
+        display: block;
+        margin: 10px;
+        width: 350px;
+        height: 400px;
+    }
+    p {
+        display: block;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+    .mapa-endereço {
+        display: none;
+    }
+    .zap {
+        display: none;
+    }
+    h2 {
+        display: none;
+    }
+    .papai-yhan {
+        margin: 35px;
+        width: 300px;
+        height: 350px;
+        display: inline-block;
+    }
+    .contatics{
+        margin-bottom: 50px;
+    }
+}
